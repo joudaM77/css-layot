@@ -1,0 +1,283 @@
+::-webkit-scrollbar-button title {
+
+    color: aqua;
+    size: 50px;
+
+}
+
+.lead__logo {
+    margin: auto;
+    display: block;
+
+}
+
+h1 {
+    
+    color: #00b39b;
+    font-size: 1.625em;
+    font-weight: 200px;
+    box-sizing: border-box;
+    text-align: center;
+    line: height 1px;
+    border: 0px;
+    border-radius: 20px;
+    background: white;
+    margin: .25em 0 .35em;
+    padding-right: 1em;
+    
+}
+
+
+.container {
+
+    display: flex;
+    color: gray;
+    justify-content: flex-start;
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    box-sizing: border-box;
+
+    margin-bottom: 0px;
+    margin-left: 10px;
+    ;
+    margin-right: 10px
+}
+
+.tab {
+    display: flex;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    justify-content: center;
+}
+
+.tab div {
+    width: 200px;
+    height: 300px;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    color: white;
+}
+
+.tab .tab1 {
+    background-color: #00b39b;
+}
+
+.tab .tab2 {
+
+    background-color: rgb(121, 121, 221);
+
+}
+
+.tab .tab3 {
+
+    background-color: blue;
+}
+
+
+
+.tab .style-select {
+    
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    outline: 0;
+    background: none;
+    border: 0;
+    color:#fff;
+    font-family: Roboto, Arial, sans-serif;
+    font-weight: 400;
+    letter-spacing: .04em;
+    font-size: 1.2rem;
+    text-align:start;
+}
+
+
+.brands h1{
+
+    text-align: start;
+    float: left;
+    width: 33%;
+    font-size: 1.625em;
+    margin: .25em 0 .35em;
+    padding-right: 1em;
+}
+
+.tab .style-select select {
+    width: 100%;
+    background: transparent;
+    border: 0;
+    border-radius: 0;
+    padding: 0 2em 0 0;
+    -webkit-appearance: none;
+    outline: 0;
+    text-transform: none;
+    text-decoration: underline;
+    cursor: pointer
+}
+
+.tab .style-select select option {
+    font-size: 1rem;
+    line-height: 1.2;
+    color: #333
+}
+
+.tab .style-select:hover {
+    background: none;
+    color: #fff
+}
+
+.tab .style-select:after {
+    background: no-repeat url(/icons/icon-caret-white.svg) 50% 50%
+}
+
+.tab .style-select:last-child {
+    margin-bottom: 35px
+}
+
+
+
+.brands section__inner {
+    font-size: 10px;
+    float:left;
+    width: 33%;
+    font-size: 1.625em;
+    margin: .25em 0 .35em;
+    padding-right: 1em;
+    width: 10%; 
+    color: bisque; 
+}
+
+
+
+
+
+.brands {
+    margin: 2.5rem auto 3.125rem;
+}
+   
+@media (max-width: 700px) {
+    .brands {
+        margin:1.875rem auto
+    }
+}
+
+section.brand.section_inner {
+    display: block;
+    align-items: flex-start;
+    font-family:Work Sans,Arial,sans-serif;
+    font-weight: 300px;
+    font-size: 26px;
+    letter-spacing: -.3px;
+    float: left;
+    margin: block end 0px; ;
+}
+
+
+.brands__logsection.brand.section_inner {
+    display: block;
+    align-items: flex-start;
+    font-family:Work Sans,Arial,sans-serif;
+    font-weight: 300px;
+    font-size: 26px;
+    letter-spacing: -.3px;
+    float: left;
+    margin: block end 0px; ;
+} os {
+    align-items: center;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    font-size: 0;
+    list-style: none;
+    width: 67%
+}
+
+@media (max-width: 700px) {
+    .brands__logos {
+        justify-content:center;
+        width: 100%
+    }
+}
+    .brands__logos li {
+        font-size: 1rem;
+        display: inline-block;
+        margin-top: 0;
+        padding: 5px 0 5px 5px;
+        width: 25%
+        
+    }
+    
+    @media (max-width: 700px) {
+        .brands__logos li {
+            padding-left:0;
+            text-align: center;
+            width: 33.33333%
+        }
+    }
+    @media (max-device-width: 480px) {
+        .brands__logos li {
+            width:50%
+        }
+    }
+    
+    .brands__logos .clinicloud img,.brands__logos .feegow img,.brands__logos .gipo img,.brands__logos .jameda img,.brands__logos .tuotempo img {
+        transition: all .2s ease 0s;
+        filter: invert(98%) sepia(2%) saturate(0) hue-rotate(180deg) brightness(300%) contrast(0);
+        -webkit-filter: invert(98%) sepia(2%) saturate(0) hue-rotate(180deg) brightness(300%) contrast(0);
+        opacity: .55
+    }
+    
+    .brands__logos .clinicloud:hover img,.brands__logos .feegow:hover img,.brands__logos .gipo:hover img,.brands__logos .jameda:hover img,.brands__logos .tuotempo:hover img {
+        filter: none;
+        opacity: 1
+    }
+    
+
+.brands__logos .tuotempo img {
+    height: 16px
+}
+
+.brands__logos .jameda img {
+    height: 20px
+}
+
+.brands__logos .clinicloud,.brands__logos .gipo {
+    width: 12.5%
+}
+
+@media (max-width: 700px) {
+    .brands__logos .clinicloud,.brands__logos .gipo {
+        width:33.33333%
+    }
+}
+
+@media (max-device-width: 480px) {
+    .brands__logos .clinicloud,.brands__logos .gipo {
+        width:50%
+    }
+}
+
+.brands__logos .clinicloud img,.brands__logos .gipo img {
+    height: 34px
+}
+
+.brands__logos a {
+    display: inline-block;
+    padding: 5px 0
+}
+
+.brands__logos a svg {
+    height: 20px;
+    width: auto;
+    max-width: 100%
+}
+
+.brands__logos a path {
+    transition: all .2s ease 0s;
+    fill: hsla(0,0%,67%,.7)
+}
+
+
